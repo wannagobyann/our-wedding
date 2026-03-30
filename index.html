@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웅진 & 미영의 결혼식에 초대합니다</title>
+    <style>
+        :root {
+            --bg-color: #f2ede4; /* 이미지의 베이지 배경색 */
+            --point-color: #a63d3d; /* 이미지의 붉은색 포인트 */
+            --text-dark: #4a4a4a;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            font-family: 'Pretendard', sans-serif;
+            color: var(--text-dark);
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 헤더 섹션 */
+        header h1 {
+            color: var(--point-color);
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+        .date-info {
+            font-weight: bold;
+            color: var(--point-color);
+            margin-top: 20px;
+        }
+
+        /* 이미지 섹션 (케이크 이미지 등) */
+        .main-img {
+            width: 100%;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        /* 초대 문구 */
+        .invitation-text {
+            padding: 40px 0;
+            border-top: 1px dashed var(--point-color);
+            border-bottom: 1px dashed var(--point-color);
+            margin: 40px 0;
+        }
+
+        /* 오시는 길 */
+        .location-section {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .location-section h2 {
+            color: var(--point-color);
+            text-align: center;
+        }
+
+        .notice {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 15px;
+        }
+
+        /* 버튼 스타일 */
+        .btn {
+            display: inline-block;
+            background-color: var(--point-color);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p style="letter-spacing: 3px;">DEAR FAMILY AND FRIENDS</p>
+        <header>
+            <h1>미영 <small style="color:#777; font-size: 0.8rem;">그리고</small> 웅진</h1>
+            <p>우리의 결혼식에 초대합니다.</p>
+            <p class="date-info">SEPTEMBER 12TH SAT | 11AM</p>
+        </header>
+
+        <div style="margin: 40px 0; font-size: 50px;">🎂</div> 
+
+        <section class="invitation-text">
+            <h3>SAVE THE DATE</h3>
+            <p>서로 다른 두 사람이 만나 하나의 길을 걷고자 합니다.<br>
+            케이크처럼 달콤하고, 따뜻한 햇살 같은 날에<br>
+            소중한 여러분을 초대하고 싶습니다.<br>
+            귀한 걸음 하시어 저희의 시작을 축복해 주세요.<br>
+            귀여운 가족 '리치'도 함께 기다리고 있을게요!</p>
+        </section>
+
+        <section class="location-section">
+            <h2>LOCATION</h2>
+            <p><strong>장소:</strong> 스완 웨딩홀 (스완 레스토랑)</p>
+            <p><strong>주소:</strong> 충북 증평군 증평읍 충중로 823-82</p>
+            
+            <div class="notice">
+                • 주차 가능하나 혼잡할 수 있으니 유의 바랍니다.<br>
+                • 예식은 레스토랑 건물 뒤편 야외 홀에서 진행됩니다.<br>
+                • 식당 근처에 ATM 기기가 없으니 참고해 주세요. 🐾
+            </div>
+
+            <a href="https://map.kakao.com/" class="btn" target="_blank">지도 보기</a>
+        </section>
+
+        <footer style="margin-top: 50px; font-size: 0.8rem; color: #999;">
+            오셔서 축복해 주시고 자리를 빛내주세요!<br>감사합니다.
+        </footer>
+    </div>
+
+</body>
+</html>
